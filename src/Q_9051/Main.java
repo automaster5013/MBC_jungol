@@ -30,7 +30,6 @@ public class Main {
             // 맨 끝 비트가 0이면 짝수(true)이므로 1을 더하고, 홀수(false)면 0을 더합니다.
             cnt += ((sc.nextInt() & 1) == 0) ? 1 : 0;
         }
-        sc.close();
 
         System.out.println("입력받은 짝수는 " + cnt + "개입니다.");
     }
@@ -52,7 +51,6 @@ public class Main {
             // 짝수(remainder가 0)일 때는 1이 더해지고, 홀수(remainder가 1)일 때는 0이 더해집니다.
             cnt += (1 - remainder);
         }
-        sc.close();
 
         System.out.print("입력받은 짝수는 " + cnt + "개입니다.\n");
     }
@@ -104,12 +102,6 @@ public class Main {
         System.out.println("입력받은 짝수는 " + cnt + "개입니다.");
     }
 }
-
-
-
-
-
-
 
 
 
