@@ -27,6 +27,7 @@ public class Main {
         for (int num : arr) {
             System.out.print(num + " ");
         }
+        sc.close();
     }
 }
 
@@ -44,6 +45,7 @@ public class Main {
         for (int i = 0; i < tokens.length; i++) {
             System.out.print(tokens[i] + " ");
         }
+        sc.close();
     }
 }
 

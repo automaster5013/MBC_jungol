@@ -11,6 +11,7 @@ public class Main {
         for (int i = 25; i >= 0; i--) {
             System.out.print(alphabet[i] + " ");
         }
+        sc.close();
     }
 }
 
@@ -27,6 +28,7 @@ public class Main {
         for (char alpha : alphabet) {
             System.out.print(alpha + " ");
         }
+        sc.close();
     }
 }
 
@@ -39,6 +41,7 @@ public class Main {
             alphabet[i] = (char) ('A' + i);
             sb.append(alphabet[i]).append(" ");
         }
+        sc.close();
 
         System.out.print(sb.reverse().toString().trim());
     }
